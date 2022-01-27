@@ -1,9 +1,9 @@
 import axios from "axios";
+import config from './config/gateway.json'
 
 const gatewayAxios = axios.create({
-    baseURL: 'http://localhost:3001/api'
-}
-)
+    baseURL: config.baseURL
+})
 
 export function getTrips(keywords) {
     return gatewayAxios.get(`/trips?keyword=${keywords}`);

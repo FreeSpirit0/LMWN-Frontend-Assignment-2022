@@ -16,7 +16,7 @@ exports.getFilteredTrips = exports.router = void 0;
 const express_1 = require("express");
 const axios_1 = __importDefault(require("axios"));
 const TripApiConfig_json_1 = __importDefault(require("../config/TripApiConfig.json"));
-exports.router = express_1.Router();
+exports.router = (0, express_1.Router)();
 const tripServiceAxios = axios_1.default.create({
     baseURL: TripApiConfig_json_1.default.baseURL
 });

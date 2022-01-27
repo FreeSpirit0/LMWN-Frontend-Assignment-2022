@@ -1,0 +1,9 @@
+.Tags {
+    font-size: small;
+}
+
+.Tag {
+    text-decoration: underline;
+    display: inline;
+    cursor: pointer;
+}

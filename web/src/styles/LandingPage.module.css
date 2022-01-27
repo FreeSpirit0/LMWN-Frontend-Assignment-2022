@@ -1,0 +1,35 @@
+.LandingPage {
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+.title {
+    font-size: calc(10px + 10vmin);
+    color: #4091e1;
+}
+
+img {
+    max-width: 50%;
+    max-height: 50%;
+  }
+  
+input {
+    width: 70vw;
+    font-size: large;
+    text-align: center;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: rgb(203, 203, 204)
+}
+
+input:focus {
+    border-color: #4091e1;
+}

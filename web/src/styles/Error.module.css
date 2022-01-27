@@ -1,0 +1,10 @@
+.Error {
+    animation: fadein 1s;
+    font-size: x-large
+
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
